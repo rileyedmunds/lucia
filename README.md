@@ -1,13 +1,10 @@
-# [Motion Detector Facial Authentication {C, Python, Arduino}] (#pull)
+# [[*IN DEVELOPMENT*]Motion Detector Facial Authentication {Arduino, C, Python}[*IN DEVELOPMENT*]] (#pull)
 
 ## Introduction
-Arduino motion sensor sends serial data that is read in by python and accesses the webcam to run facial recognition via the webcam when it detects motion.
+When the Arduino senses someone sitting down in front of the computer, it accesses the webcam and runs facial recognition to confirm the identity and log the user in.
 
 
 ## Contents
-
-  * APIs
-    * 
   * Packages
     * openCV
     * serial
