@@ -23,7 +23,7 @@ void loop()
 
   if (val == HIGH) {
     Serial.print("1");
-    delay(8000); //wait for the python program to run
+    delay(5); //wait for the python program to run
   } else {
     //nothing detected:
     Serial.print("0");
